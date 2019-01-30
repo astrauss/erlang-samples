@@ -9,4 +9,5 @@ start() ->
     io:fwrite("~f~n", [X]),
     io:fwrite("~e~n", [Y]),
     io:fwrite("~w~n", [Result]),
+    io:fwrite("~w~n",[2#00111100 bor 2#00001101]),
     io:fwrite("~w~n",[2#00111100 band 2#00001101]).
